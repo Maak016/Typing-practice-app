@@ -9,6 +9,9 @@
 
 class interface {
 public:
+	int window_height = 720;
+	int window_width = 1280;
+
 	void init();
 
 	void load_element_render_func(void(*func)(void));
@@ -30,6 +33,11 @@ private:
 	void opengl_glfw_update();
 
 	void imgui_update();
+
+	void menu_bar();
+
+	void main_content_space_setup();
+	void main_content_space_end();
 
 	void render();
 

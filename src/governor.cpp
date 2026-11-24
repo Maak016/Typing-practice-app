@@ -1,15 +1,19 @@
 #include "governor.h"
 
+governor* governor::def_gov_obj_for_gui_func;
+
 bool governor::is_closing_command_true() {
 	return interface_object.glfw_window_should_close();
 }
 
 void governor::governor_init() {
-
+	def_gov_obj_for_gui_func = this;
 }
 
 void governor::app_init() {
 	interface_object.init();
+	interface_object.load_element_render_func(this->gui_element_func);
+
 	init_core_api_components();
 }
 
@@ -42,5 +46,9 @@ void governor::shutdown_core_api_components() {
 }
 
 void governor::governor_shutdown() {
+	
+}
+
+void governor::gui_element_func() {
 	
 }

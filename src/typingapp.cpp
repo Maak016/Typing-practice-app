@@ -228,6 +228,14 @@ int reference_string::get_num_char_of_nth_word(int nth) {
 	return get_index_of_nth_word(nth + 1) - get_index_of_nth_word(nth) - 1;
 }
 
+bool input_validator::is_input_at_char_correct(int word_index, int char_index) {
+	if (word_index > input_validity.size()) return false;
+
+	std::vector<bool> requested_word = word_index == input_validity.size() ? curr_word_validity : input_validity.at(word_index);
+
+	if (char_index >= requested_word.size()) return false;
+	return requested_word.at(char_index);
+}
 
 void input_validator::init(user_key_tracker* user_input_tracker, reference_string* ref_str) {
 	this->user_input_tracker = user_input_tracker;

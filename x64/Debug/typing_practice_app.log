@@ -1,5 +1,15 @@
 ﻿  governor.cpp
   main.cpp
-  ui.cpp
+  typingapp.cpp
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(59,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(64,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(83,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(170,49): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(171,50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(196,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(214,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(225,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(402,42): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp(403,43): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
   Generating Code...
   typing_practice_app.vcxproj -> C:\Personal\Visual Studio projects\typing_practice_app\x64\Debug\typing_practice_app.exe

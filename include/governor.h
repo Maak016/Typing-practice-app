@@ -21,7 +21,8 @@ private:
 	void update_core_api_components();
 	void shutdown_core_api_components();
 
-	void(*ui_element_func)(void) = nullptr;
+	static governor* def_gov_obj_for_gui_func;
+	static void gui_element_func();
 public:
 	bool is_closing_command_true();
 
