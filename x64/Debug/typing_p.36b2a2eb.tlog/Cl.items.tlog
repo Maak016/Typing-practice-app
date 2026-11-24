@@ -1,0 +1,14 @@
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_demo.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_demo.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_draw.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_draw.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_impl_glfw.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_impl_glfw.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_impl_opengl3.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_impl_opengl3.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_stdlib.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_stdlib.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_tables.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_tables.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\include\imgui\imgui_widgets.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\imgui_widgets.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\glad.c;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\glad.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\governor.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\governor.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\main.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\main.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\typingapp.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\typingapp.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\ui.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\ui.obj
+C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\src\util.cpp;C:\Personal\Visual Studio projects\typing_practice_app\typing_practice_app\x64\Debug\util.obj
