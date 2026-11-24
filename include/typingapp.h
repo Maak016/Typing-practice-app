@@ -110,6 +110,7 @@ public:
 
 	void update();
 
+	bool is_input_at_char_correct(int word_index, int char_index);
 private:
 	bool is_typing_done();
 

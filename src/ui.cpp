@@ -54,9 +54,26 @@ void interface::imgui_update() {
 	ImGui_ImplOpenGL3_NewFrame();
 	ImGui_ImplGlfw_NewFrame();
 	ImGui::NewFrame();
-	ImGui::ShowDemoWindow(); // Show demo window! :)
 
+	main_content_space_setup();
 	if (this->gui_element_func) gui_element_func();
+	main_content_space_end();
+}
+
+void interface::main_content_space_setup() {
+	ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoBackground |
+		ImGuiWindowFlags_NoResize;
+
+	ImGui::SetNextWindowSize(ImVec2(window_width, window_height));
+	ImGui::SetNextWindowPos(ImVec2(0.0f, 0.0f));
+
+	ImGui::SetNextWindowFocus();
+
+	ImGui::Begin("app_content", NULL, window_flags);
+}
+
+void interface::main_content_space_end() {
+	ImGui::End();
 }
 
 void interface::render() {
