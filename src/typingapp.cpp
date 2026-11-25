@@ -381,6 +381,8 @@ void input_validator::handle_key_del() {
 void input_validator::handle_word_jump() {
 	if (curr_num_recorded_words > input_validity.size()) {
 		input_validity.push_back(curr_word_validity);
+
+		curr_word_validity.clear();
 	}
 	else if (curr_num_recorded_words < input_validity.size()) {
 		curr_word_validity = input_validity[input_validity.size() - 1];

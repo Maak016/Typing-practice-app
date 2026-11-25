@@ -22,7 +22,11 @@ private:
 	void shutdown_core_api_components();
 
 	static governor* def_gov_obj_for_gui_func;
+
 	static void gui_element_func();
+	void gui_render_word(int word_index);
+	void pick_char_color(int correctness);
+	std::string get_text_content(int word_offset, int char_idx);
 public:
 	bool is_closing_command_true();
 
