@@ -9,8 +9,13 @@
 
 class interface {
 public:
-	int window_height = 720;
-	int window_width = 1280;
+	class defaults {
+	public:
+		static int window_height, window_width;
+		static ImVec4 color_wrong, color_correct, color_neutral;
+
+		static float spacing_between_chars, spacing_between_words;
+	};
 
 	void init();
 

@@ -55,7 +55,7 @@ void governor::gui_element_func() {
 	for (int i = 0; i < total_num_words; i++) {
 		def_gov_obj_for_gui_func->gui_render_word(i);
 
-		ImGui::SameLine(0.0f, 15.0f);
+		ImGui::SameLine(0.0f, interface::defaults::spacing_between_words);
 	}
 }
 
@@ -72,16 +72,16 @@ void governor::gui_render_word(int word_index) {
 
 		ImGui::PopStyleColor();
 
-		ImGui::SameLine(0.0f, 1.0f);
+		ImGui::SameLine(0.0f, interface::defaults::spacing_between_chars);
 	}
 }
 
 void governor::pick_char_color(int correctness) {
 	if (correctness) {
-		ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.0f, 1.0f, 0.0f, 1.0f));
+		ImGui::PushStyleColor(ImGuiCol_Text, interface::defaults::color_correct);
 	}
 	else {
-		ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(1.0f, 0.0f, 0.0f, 1.0f));
+		ImGui::PushStyleColor(ImGuiCol_Text, interface::defaults::color_wrong);
 	}
 }
 

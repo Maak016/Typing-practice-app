@@ -1,5 +1,16 @@
 #include "ui.h"
 
+int interface::defaults::window_height = 720;
+int interface::defaults::window_width = 1280;
+
+ImVec4 interface::defaults::color_correct = ImVec4(0.0f, 1.0f, 0.0f, 1.0f);
+ImVec4 interface::defaults::color_wrong = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+ImVec4 interface::defaults::color_neutral = ImVec4(1.0f, 1.0f, 1.0f, 1.0f);
+
+float interface::defaults::spacing_between_chars = 1.0f;
+float interface::defaults::spacing_between_words = 15.0f;
+
+
 void interface::init() {
 	opengl_glfw_init();
 	imgui_init();
@@ -64,7 +75,7 @@ void interface::main_content_space_setup() {
 	ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoBackground |
 		ImGuiWindowFlags_NoResize;
 
-	ImGui::SetNextWindowSize(ImVec2(window_width, window_height));
+	ImGui::SetNextWindowSize(ImVec2(defaults::window_width, defaults::window_height));
 	ImGui::SetNextWindowPos(ImVec2(0.0f, 0.0f));
 
 	ImGui::SetNextWindowFocus();
